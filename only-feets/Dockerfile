@@ -20,8 +20,5 @@ EXPOSE 3002
 ENV NEXT_TELEMETRY_DISABLED=1
 
 
-
-
-
 # Start the application
 CMD ["npm", "run" , "dev"]
