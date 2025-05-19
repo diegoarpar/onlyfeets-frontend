@@ -1,25 +1,31 @@
-import { useState } from 'react';
 import "./css.css";
 import Image from 'next/image';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const Gallery = ({ images}) => {
-  const [selectedImage, setSelectedImage] = useState(null);
+   const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
 
   return (
     <div>
-      <div className={`grid`}>
+      <div className="w-full max-w-3xl mx-auto">
+      <Slider {...settings}>
         {images.map((img, index) => (
-          <div key={index} className={`item`} onClick={() => setSelectedImage(img)}>
-            <Image src={`/images/${img}`} alt={`photo-${index}`} width={300} height={200} />
+          <div key={index}>
+            <img src={`/images/${img}`} alt={`Slide ${index}`} className="w-full h-auto rounded-xl" />
           </div>
         ))}
-      </div>
-
-      {selectedImage && (
-        <div className={`modal`} onClick={() => setSelectedImage(null)}>
-          <img src={`/images/${selectedImage}`} alt="Selected" className={`modalImage`} />
-        </div>
-      )}
+      </Slider>
+    </div>
     </div>
   );
 };
