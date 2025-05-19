@@ -9,11 +9,19 @@ const Gallery = ({ images}) => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     vertical: true,
     autoplaySpeed: 3000,
+    verticalSwiping: true,
+    swipeToSlide: true,
+    beforeChange: function(currentSlide, nextSlide) {
+      console.log("before change", currentSlide, nextSlide);
+    },
+    afterChange: function(currentSlide) {
+      console.log("after change", currentSlide);
+    }
   };
 
   return (
