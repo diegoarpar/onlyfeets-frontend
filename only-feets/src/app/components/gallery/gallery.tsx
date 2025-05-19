@@ -9,13 +9,12 @@ const Gallery = ({ images}) => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     vertical: true,
     autoplaySpeed: 3000,
     verticalSwiping: true,
-    swipeToSlide: true,
     beforeChange: function(currentSlide, nextSlide) {
       console.log("before change", currentSlide, nextSlide);
     },
@@ -26,7 +25,7 @@ const Gallery = ({ images}) => {
 
   return (
     <div>
-      <div className="w-full max-w-3xl mx-auto">
+      <div className="w-90 max-w-3xl mx-auto">
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index}>
