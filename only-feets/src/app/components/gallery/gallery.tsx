@@ -12,6 +12,7 @@ const Gallery = ({ images}) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    vertical: true,
     autoplaySpeed: 3000,
   };
 
