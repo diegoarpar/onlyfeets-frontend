@@ -6,10 +6,11 @@ import TerraAds from "./features/ads/terraAds";
 export default function Home() {
   return (
     <div>
-    <TerraAds/>
+    
     <Slider/>
     <Menu/>
     <Gallery/>
+    <TerraAds/>
     </div>
   );
 }

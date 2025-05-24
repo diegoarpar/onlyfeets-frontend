@@ -5,7 +5,7 @@ export default function AdsterraBanner(): JSX.Element {
     const banner = useRef<HTMLDivElement>()
 
     const atOptions = {
-        key: 'cfb86092b403c10ea78686222ea7b9c8',
+        key: '94c2add6df163002cd78c7966d02b348',
         format: 'iframe',
         height: 50,
         width: 320,
@@ -16,7 +16,7 @@ export default function AdsterraBanner(): JSX.Element {
         const conf = document.createElement('script')
         const script = document.createElement('script')
         script.type = 'text/javascript'
-        script.src = `//www.highperformancedformats.com/${atOptions.key}/invoke.js`
+        script.src = `//pl26680216.profitableratecpm.com/${atOptions.key}/invoke.js`
         conf.innerHTML = `atOptions = ${JSON.stringify(atOptions)}`
 
         banner.current.append(conf)
@@ -24,5 +24,5 @@ export default function AdsterraBanner(): JSX.Element {
     }
 }, [banner])
 
-    return <div className="mx-2 my-5 border border-gray-200 justify-center items-center text-white text-center" ref={banner}></div>
+    return <div id="container-94c2add6df163002cd78c7966d02b348" className="mx-2 my-5 border border-gray-200 justify-center items-center text-white text-center" ref={banner}></div>
 }
