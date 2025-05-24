@@ -5,7 +5,7 @@ export default function AdsterraBanner(): JSX.Element {
     const banner = useRef<HTMLDivElement>()
 
     const atOptions = {
-        key: '94c2add6df163002cd78c7966d02b348',
+        key: '5ac98e58305e8e12892afdba32d852e7',
         format: 'iframe',
         height: 50,
         width: 320,
