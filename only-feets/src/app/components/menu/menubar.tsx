@@ -35,7 +35,7 @@ export default function MenuBar() {
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2">
           <Link href="/" className="block hover:text-blue-600">Home</Link>
-          <Link href="/" className="block hover:text-blue-600">Classic</Link>
+          <Link href="/pages/videos" className="block hover:text-blue-600">Videos</Link>
           <Link href="/" className="block hover:text-blue-600">Colorfull</Link>
           <Link href="/" className="block hover:text-blue-600">Nails</Link>
         </div>
