@@ -20,7 +20,7 @@ export default function MenuBar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="hover:text-blue-600">Home</Link>
-          <Link href="/" className="hover:text-blue-600">Classic</Link>
+          <Link href="/pages/videos" className="hover:text-blue-600">Videos</Link>
           <Link href="/" className="hover:text-blue-600">Colorfull</Link>
           <Link href="/" className="hover:text-blue-600">Nails</Link>
         </div>

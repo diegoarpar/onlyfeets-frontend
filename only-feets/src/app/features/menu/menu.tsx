@@ -1,8 +1,7 @@
+import MenuBar from "../../components/menu/menubar";
+
 export default function Menu() {
     return (
-      <img
-        src="https://i.imgur.com/MK3eW3Am.jpg"
-        alt="Katherine Johnson"
-      />
+      <MenuBar></MenuBar>
     )
   }

@@ -1,6 +1,6 @@
 import Slider from "./components/slider/slider";
-import MenuBar from "./components/menu/menubar";
-import Gallery from "./features/gallery/gallery";
+import Menu from "./features/menu/menu";
+import GalleryFeature from "./features/gallery/gallery";
 import TerraAds from "./features/ads/terraAds";
 
 export default function Home() {
@@ -8,8 +8,8 @@ export default function Home() {
     <div>
     
     <Slider/>
-    <MenuBar/>
-    <Gallery/>
+    <Menu/>
+    <GalleryFeature/>
     <TerraAds/>
     </div>
   );

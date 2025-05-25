@@ -1,11 +1,11 @@
 'use client'
 import { useEffect, useRef } from "react";
 
-export default function AdsterraBanner(): JSX.Element {
+export default function AdsterraBanner({addId}): JSX.Element {
     const banner = useRef<HTMLDivElement>()
 
     const atOptions = {
-        key: '5ac98e58305e8e12892afdba32d852e7',
+        key: addId,
         format: 'iframe',
         height: 50,
         width: 320,
