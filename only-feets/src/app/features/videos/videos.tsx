@@ -10,12 +10,12 @@ export default function Menu() {
       },
       {
         title: 'Video 2',
-        file: '/videos/feets1.mp4',
+        file: '/videos/feets2.mp4',
         thumbnail: '/thumbnails/city.jpg',
       },
       {
         title: 'Video 3',
-        file: '/videos/feets1.mp4',
+        file: '/videos/feets3.mp4',
         thumbnail: '/thumbnails/beach.jpg',
       },
     ];
