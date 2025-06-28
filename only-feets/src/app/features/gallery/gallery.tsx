@@ -4,7 +4,7 @@ import Gallery from '../../components/gallery/gallery';
 
 export default function GalleryFeature() {
   const imageList = []; // Initialize an empty array
-  for (let i = 1; i <= 7; i++) {
+  for (let i = 1; i <= 16; i++) {
     imageList.push("feets" + i + ".jpg"); // Process and add to the array
   }
   return (
