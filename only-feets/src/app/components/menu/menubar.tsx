@@ -21,8 +21,8 @@ export default function MenuBar() {
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="hover:text-blue-600">Home</Link>
           <Link href="/pages/videos" className="hover:text-blue-600">Videos</Link>
-          <Link href="/" className="hover:text-blue-600">Colorfull</Link>
-          <Link href="/" className="hover:text-blue-600">Nails</Link>
+          <Link href="/pages/colorfull" className="hover:text-blue-600">Colorfull</Link>
+          <Link href="/pages/nails" className="hover:text-blue-600">Nails</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -36,8 +36,8 @@ export default function MenuBar() {
         <div className="md:hidden px-4 pb-4 space-y-2">
           <Link href="/" className="block hover:text-blue-600">Home</Link>
           <Link href="/pages/videos" className="block hover:text-blue-600">Videos</Link>
-          <Link href="/" className="block hover:text-blue-600">Colorfull</Link>
-          <Link href="/" className="block hover:text-blue-600">Nails</Link>
+          <Link href="/pages/colorfull" className="block hover:text-blue-600">Colorfull</Link>
+          <Link href="/pages/nails" className="block hover:text-blue-600">Nails</Link>
         </div>
       )}
     </nav>

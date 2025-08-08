@@ -28,7 +28,7 @@ const Gallery = ({ images}) => {
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index}>
-            <img src={`/images/${img}`} alt={`Slide ${index}`} className="w-full h-auto rounded-xl" />
+            <img src={`${img}`} alt={`Slide ${index}`} className="w-full h-auto rounded-xl" />
           </div>
         ))}
       </Slider>

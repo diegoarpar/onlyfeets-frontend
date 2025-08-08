@@ -18,12 +18,6 @@ export default function Menu() {
         file: '/videos/feets3.mp4',
         thumbnail: '/thumbnails/beach.jpg',
       },
-      ,
-      {
-        title: 'Video 4',
-        file: '/videos/feets4.mp4',
-        thumbnail: '/thumbnails/beach.jpg',
-      },
     ];
     return (
       <VideoGallery videos={videos}></VideoGallery>
